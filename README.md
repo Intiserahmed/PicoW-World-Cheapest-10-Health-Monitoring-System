@@ -7,7 +7,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">Cheapest ($10) Remote Health Monitoring System</h3>
+<h3 align="center">Pico W Remote Health Monitoring System</h3>
 
   <p align="center">
 There are certain disadvantages to remote patient monitoring, such as its reliance on equipment that not all patients can afford. This project intends to solve the problem through providing  cheap but industry standard equipments.The system sends the realtime SpO2 readings and BPM reading to "Firebase" for storing data and analysis. This saved data can be utilised to predict patients' health concerns, which will appear as a warning before they occur, allowing the patient to prepare for or avoid the scenario.These data can be accessed from anywhere using phone apps or web apps built with flutter.   <br />
