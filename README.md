@@ -1,145 +1,40 @@
+# Remote Patient Monitoring System
 
-<a name="readme-top"></a>
+This project aims to provide an affordable solution for remote patient monitoring by using industry-standard equipment and cloud-based data storage and analysis. The system continuously measures the patient's SpO2 and BPM readings and sends them in real-time to Firebase for storage and analysis.
 
+## Features
 
+- Real-time measurement of SpO2 and BPM readings
+- Cloud-based data storage and analysis using Firebase
+- Predictive analytics to detect potential health issues before they occur
+- Phone and web apps for easy access to patient data
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
-<h3 align="center">Pico W Remote Health Monitoring System</h3>
-
-  <p align="center">
-There are certain disadvantages to remote patient monitoring, such as its reliance on equipment that not all patients can afford. This project intends to solve the problem through providing  cheap but industry standard equipments.The system sends the realtime SpO2 readings and BPM reading to "Firebase" for storing data and analysis. This saved data can be utilised to predict patients' health concerns, which will appear as a warning before they occur, allowing the patient to prepare for or avoid the scenario.These data can be accessed from anywhere using phone apps or web apps built with flutter.   <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-![Product Name Screen Shot][product-screenshot]
-
-
-
-
-
-### Built With
-
-* [![MicroPython][MicroPython]][MicroPython-url]
-* [![Flutter][Flutter]][Flutter-url]
-* [![Firebase][Firebase]][Firebase-url]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
+To use this system, you will need the following:
 
+- SpO2 and BPM sensors compatible with the system
+- An Android or iOS phone for using the Flutter-based mobile app
+- A computer with an internet connection for using the web app
 
-### Prerequisites
+Follow these steps to get started:
 
-### Installation
+1. Clone this repository to your local machine.
+2. Set up a Firebase project and add the necessary credentials to the project.
+3. Configure the Flutter-based mobile app and web app with the Firebase credentials.
+4. Connect the SpO2 and BPM sensors to the system.
+5. Start the system and begin monitoring the patient's health.
 
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
+Contributions to this project are welcome! To contribute, please follow these steps:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Fork this repository to your own account.
+2. Create a branch for your changes.
+3. Make your changes and commit them to your branch.
+4. Push your branch to your forked repository.
+5. Create a pull request to merge your changes into the main repository.
 
-
-
-<!-- LICENSE -->
 ## License
 
-
-
-<!-- CONTACT -->
-## Contact
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/1.png
-[MicroPython]: https://img.shields.io/badge/Micropython-20232A?style=for-the-badge&logo=micropython&logoColor=white
-[MicroPython-url]:https://micropython.org/
-[Flutter]: https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
-[Flutter-url]: https://flutter.dev/
-[Firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
-[Firebase-url]: https://firebase.google.com/
+This project is licensed under the MIT License. See the LICENSE file for details.
